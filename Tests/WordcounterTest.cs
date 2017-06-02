@@ -45,5 +45,18 @@ namespace WordCcounter
 
         Assert.Equal(count, 0);
       }
+
+      [Fact]
+      public void Test_CountRepeats_AccountForSpaces()
+      {
+        string sentence = "i love";
+        string word = "I";
+
+        RepeatCounter counter = new RepeatCounter();
+
+        int count = counter.CountRepeats(sentence, word);
+
+        Assert.Equal(count, 1);
+      }
     }
   }
