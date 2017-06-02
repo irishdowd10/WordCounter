@@ -58,5 +58,18 @@ namespace WordCcounter
 
         Assert.Equal(count, 1);
       }
+
+      [Fact]
+      public void Test_CountRepeats_AccountForMultiple()
+      {
+        string sentence = "friday is always good friday";
+        string word = "friday";
+
+        RepeatCounter counter = new RepeatCounter();
+
+        int count = counter.CountRepeats(sentence, word);
+
+        Assert.Equal(count, 2);
+      }
     }
   }
