@@ -1,7 +1,11 @@
+@{
+  Layout ="shared/_Layout.cshtml";
+}
+
 <form action="/" method="post">
   <label for="sentence">Sentence</label>
   <input id="sentence" name="sentence" type="text">
   <label for="word">Word</label>
-  <input id="word" name="word" type="text">
+  <input id="word" name="word" type="text" required>
   <button type="submit">Count the words!</button>
 </form>

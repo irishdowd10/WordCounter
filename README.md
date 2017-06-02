@@ -11,14 +11,14 @@ This program gives the user the opportunity to input a string phrase and then in
 |Behavior| User Input string| User Input Word| Output |
 |---|---|---|---|
 |Program will verify input string(s) = inputted word(w) . |"i"| "i"| 1 |
-|Program will will account for capital and lowercase letters. |"I" | "i" | 1 |
+|Program will account for capital and lowercase letters. |"I" | "i" | 1 |
 |Program will verify if word is not part of long string |"bird"| "I" | 0 |
 |Program will account for spaces within an inputted string |"i love"| "I" | 1 |
-|Program will account for  multiple matches in string  |"friday is always goof friday"| "friday" | 2 |
+|Program will account for  multiple matches in string  |"friday is always good friday"| "friday" | 2 |
 
 
 ### Link
-
+https://github.com/irishdowd10/WordCounter.git
 
 ## Setup
 
