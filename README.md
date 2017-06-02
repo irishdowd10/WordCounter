@@ -4,7 +4,7 @@
 
 ## Description
 
-This program gives the user the opportunity to input a string phrase and then input word.  The inputted word will is cross-referenced to phrase to  check and count frequency.  The frequency will then display after submittal
+This program gives the user the opportunity to input a string phrase and then input word.  The inputted word will is cross-referenced to phrase to  check and count frequency.  The frequency will then display after submittal.
 
 
 ## Specifications
