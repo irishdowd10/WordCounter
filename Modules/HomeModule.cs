@@ -13,7 +13,7 @@ namespace WordCounter.Modules
         return View["index.cshtml"];
       };
 
-      Post["/"] = _ => {
+      Post["/results"] = _ => {
         RepeatCounter counter = new RepeatCounter();
         int count = counter.CountRepeats(Request.Form["sentence"], Request.Form["word"]);
 
