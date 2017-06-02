@@ -8,13 +8,13 @@ This program gives the user the opportunity to input a string phrase and then in
 
 
 ## Specifications
-|Behavior| User Input string| User Input Word| Output |
-|---|---|---|---|
-|Program will verify input string(s) = inputted word(w) . |"i"| "i"| 1 |
-|Program will account for capital and lowercase letters. |"I" | "i" | 1 |
-|Program will verify if word is not part of long string |"bird"| "I" | 0 |
-|Program will account for spaces within an inputted string |"i love"| "I" | 1 |
-|Program will account for  multiple matches in string  |"friday is always good friday"| "friday" | 2 |
+|Behavior| User Input String| User Input Word| Output | Why |
+|---|---|---|---|---|
+|Program will verify input string(s) = inputted word(w) . |"i"| "i"| 1 | Simple test of string will = word |
+|Program will account for capital and lowercase letters. |"I" | "i" | 1 | Need to account for case sensitivity in words|
+|Program will verify if word is not part of long string |"bird"| "I" | 0 | Make sure input words will not count with in strings |
+|Program will account for spaces within an inputted string |"i love"| "I" | 1 | This will detect if word or not as part of string |
+|Program will account for  multiple matches in string  |"friday is always good friday"| "friday" | 2 | This verifies our counter is working |
 
 
 ### Link
