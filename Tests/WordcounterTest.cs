@@ -3,7 +3,7 @@ using WordCounter.Objects;
 using System;
 using System.Collections.Generic;
 
-namespace WordCcounter
+namespace WordCounter.Tests
 {
     public class WordTest
     {
