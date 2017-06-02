@@ -30,7 +30,7 @@ https://github.com/irishdowd10/WordCounter.git
 
 
 ## Known Bugs
-<!-- None that I know of -->
+As far as I know, none.
 
 ## Support and contact details
 
@@ -38,7 +38,7 @@ _John Dowd - john.dowd@inspectall.com_
 
 ## Technologies Used
 
-_HTML Bootstrap, Nancy, Razor,C#_
+_HTML Bootstrap, Nancy, Razor, C#, xUnit_
 
 ### License
 
