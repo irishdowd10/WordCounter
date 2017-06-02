@@ -10,7 +10,14 @@ namespace WordCcounter
       [Fact]
       public void CountRepeatsii1()
       {
+        string sentence = "i";
+        string word = "i";
 
+        RepeatCounter counter = new RepeatCounter();
+
+        int count = counter.CountRepeats(sentence, word);
+
+        Assert.Equal(count, 1);
       }
     }
   }
