@@ -8,6 +8,9 @@ namespace WordCcounter
     public class WordTest
     {
       [Fact]
-      public void
+      public void CountRepeatsii1()
+      {
+
+      }
     }
   }

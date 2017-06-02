@@ -18,7 +18,7 @@ This program gives the user the opportunity to input a string phrase and then in
 
 
 ### Link
-https://github.com/irishdowd10/WordCounter.git
+
 
 ## Setup
 
