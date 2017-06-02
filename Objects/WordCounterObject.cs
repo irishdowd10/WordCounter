@@ -9,9 +9,19 @@ namespace WordCounter.Objects
       {
         int count = 0;
 
-        // sentence == word
-        if(sentence.ToLower() == word.ToLower())
+        sentence = sentence.ToLower();
+        word = word.ToLower();
+
+        if(sentence == word)
           return 1;
+
+        string[] wordArray = sentence.Split(' ');
+
+        for(int i = 0; i < wordArray.Length; i++)
+        {
+          if(wordArray[i] == word)
+            count++;
+        }
 
         return count;
       }

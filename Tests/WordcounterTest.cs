@@ -32,5 +32,18 @@ namespace WordCcounter
 
         Assert.Equal(count, 1);
       }
+
+      [Fact]
+      public void Test_CountRepeats_OnlyMatchWords()
+      {
+        string sentence = "bird";
+        string word = "i";
+
+        RepeatCounter counter = new RepeatCounter();
+
+        int count = counter.CountRepeats(sentence, word);
+
+        Assert.Equal(count, 0);
+      }
     }
   }
