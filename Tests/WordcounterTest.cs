@@ -13,9 +13,9 @@ namespace WordCounter.Tests
         string sentence = "i";
         string word = "i";
 
-        RepeatCounter counter = new RepeatCounter();
+        RepeatCounter counter = new RepeatCounter(sentence, word);
 
-        int count = counter.CountRepeats(sentence, word);
+        int count = counter.CountRepeats();
 
         Assert.Equal(count, 1);
       }
@@ -26,9 +26,9 @@ namespace WordCounter.Tests
         string sentence = "I";
         string word = "i";
 
-        RepeatCounter counter = new RepeatCounter();
+        RepeatCounter counter = new RepeatCounter(sentence, word);
 
-        int count = counter.CountRepeats(sentence, word);
+        int count = counter.CountRepeats();
 
         Assert.Equal(count, 1);
       }
@@ -39,9 +39,9 @@ namespace WordCounter.Tests
         string sentence = "bird";
         string word = "i";
 
-        RepeatCounter counter = new RepeatCounter();
+        RepeatCounter counter = new RepeatCounter(sentence, word);
 
-        int count = counter.CountRepeats(sentence, word);
+        int count = counter.CountRepeats();
 
         Assert.Equal(count, 0);
       }
@@ -52,9 +52,9 @@ namespace WordCounter.Tests
         string sentence = "i love";
         string word = "I";
 
-        RepeatCounter counter = new RepeatCounter();
+        RepeatCounter counter = new RepeatCounter(sentence, word);
 
-        int count = counter.CountRepeats(sentence, word);
+        int count = counter.CountRepeats();
 
         Assert.Equal(count, 1);
       }
@@ -65,9 +65,9 @@ namespace WordCounter.Tests
         string sentence = "friday is always good friday";
         string word = "friday";
 
-        RepeatCounter counter = new RepeatCounter();
+        RepeatCounter counter = new RepeatCounter(sentence, word);
 
-        int count = counter.CountRepeats(sentence, word);
+        int count = counter.CountRepeats();
 
         Assert.Equal(count, 2);
       }

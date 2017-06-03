@@ -2,7 +2,7 @@
   Layout = "Shared/_Layout.cshtml";
 }
 
-<h3> Found word: @Model Times </h3>
+<h3> Found word @Model.GetWord(): @Model.CountRepeats() Times in string @Model.GetSentence() </h3>
 <form action="/" method="get">
     <button type="submit" class="btn btn-default">Return to Home</button>
 </form>
